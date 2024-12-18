@@ -25,7 +25,7 @@ header {
   padding: 10px;
   font-family: "Oleo script", sans-serif;
   color: rgb(245, 243, 160);
-  font-size: 40px;
+  font-size: 2.5rem;
   text-decoration: none;
   text-transform: none;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
@@ -42,7 +42,7 @@ header li {
 header a {
   color: rgb(255, 251, 0);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 12px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 11px;
@@ -64,12 +64,22 @@ footer ul {
 }
 
 footer li {
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   margin: 0 50px;
 }
 
 footer img {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 48rem) {
+  #page-logo {
+    font-size: 2.5rem;
+  }
+
+  header nav {
+    display: none;
+  }
 }
