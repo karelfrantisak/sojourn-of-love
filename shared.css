@@ -78,6 +78,15 @@ header nav a:hover {
   display: none;
 }
 
+#side-drawer ul {
+  list-style: none;
+  margin: 0;
+  padding: 4rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 #side-drawer:target {
   display: block;
 }
@@ -99,14 +108,6 @@ header nav a:hover {
   font-size: 2rem;
 }
 
-#side-drawer ul {
-  list-style: none;
-  margin: 0;
-  padding: 4rem 1rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 footer {
   background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
 }
@@ -136,6 +137,7 @@ footer img {
   header nav {
     display: none;
   }
+
   .menu-btn {
     display: flex;
   }

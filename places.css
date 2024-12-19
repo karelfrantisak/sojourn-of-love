@@ -52,9 +52,6 @@ main li img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.item-content {
   margin: 0;
 }
 
@@ -74,7 +71,28 @@ main li img {
 }
 
 @media (max-width: 48rem) {
-  #item-content {
-    grid-template-columns: 1fr;
+  li:nth-of-type(2) {
+    grid-column: 1/ 1;
+    width: auto;
+  }
+
+  li:nth-of-type(3) {
+    grid-column: 1/ 1;
+    width: auto;
+  }
+
+  li:nth-of-type(4) {
+    grid-column: 1/ 1;
+    width: auto;
+  }
+
+  li:nth-of-type(5) {
+    grid-column: 1/ 1;
+    width: auto;
+  }
+
+  main li img {
+    object-fit: cover;
+    align-items: center;
   }
 }
