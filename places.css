@@ -72,3 +72,9 @@ main li img {
 .actions a:hover {
   background-color: rgb(235, 253, 255);
 }
+
+@media (max-width: 48rem) {
+  #item-content {
+    grid-template-columns: 1fr;
+  }
+}
