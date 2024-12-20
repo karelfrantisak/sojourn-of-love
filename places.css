@@ -42,8 +42,8 @@ main li {
 }
 
 main li img {
-  width: 285px;
-  height: 355px;
+  width: 17.8rem;
+  height: 22.5rem;
   object-fit: cover;
 }
 
@@ -75,6 +75,7 @@ main li img {
     display: flex;
     flex-direction: column;
     width: auto;
+    margin: auto 1rem 3rem;
   }
 
   main li {
