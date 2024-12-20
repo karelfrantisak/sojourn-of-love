@@ -129,7 +129,7 @@ footer img {
   height: 100%;
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 62rem) {
   #page-logo {
     font-size: 2.5rem;
   }
