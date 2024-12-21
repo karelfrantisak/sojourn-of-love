@@ -98,14 +98,15 @@
 }
 
 @media (max-width: 62rem) {
-  #hero-content a {
-    display: none;
+  #hero-content {
+    top: 20rem;
   }
 
-  #hero-content {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
+  #hero-content p {
+    font-weight: bold;
+  }
+  #hero-content a {
+    display: none;
   }
 
   #destinations {
