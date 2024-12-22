@@ -57,6 +57,10 @@
   );
 }
 
+#highlights img:hover {
+  transform: scale(1.05);
+}
+
 #highlights h2 {
   text-transform: uppercase;
   text-align: center;
@@ -112,5 +116,9 @@
 
   #destinations {
     flex-direction: column;
+  }
+
+  #highlights img:hover {
+    transform: none;
   }
 }
