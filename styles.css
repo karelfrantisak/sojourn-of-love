@@ -15,6 +15,11 @@
   margin: 0 auto;
   position: relative;
   top: 18.75rem;
+  transition: transform 0.5s ease;
+}
+
+#hero-content:hover {
+  transform: scale(1.05);
 }
 
 #hero-content h1 {
@@ -48,6 +53,12 @@
   background-color: rgb(255, 238, 0);
 }
 
+#ftwtranslation_button {
+  position: absolute;
+  margin-top: -2.8rem;
+  margin-left: -1.6rem;
+}
+
 #highlights {
   padding: 24px;
   background: linear-gradient(
@@ -55,6 +66,10 @@
     rgba(255, 255, 254, 0.651),
     rgb(247, 233, 158)
   );
+}
+
+#highlights img {
+  transition: transform 0.5s ease;
 }
 
 #highlights img:hover {
@@ -105,6 +120,11 @@
   #hero-content {
     top: 17rem;
     width: auto;
+    transition: none;
+  }
+
+  #hero-content:hover {
+    transform: none;
   }
 
   #hero-content p {
