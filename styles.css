@@ -99,7 +99,8 @@
 
 @media (max-width: 62rem) {
   #hero-content {
-    top: 20rem;
+    top: 17rem;
+    width: auto;
   }
 
   #hero-content p {
