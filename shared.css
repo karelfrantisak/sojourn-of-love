@@ -109,7 +109,7 @@ header nav a:hover {
 }
 
 footer {
-  background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+  background: linear-gradient(70deg, rgb(19, 19, 19), rgb(1, 1, 1));
 }
 
 footer ul {
@@ -128,15 +128,9 @@ footer img {
   width: 100%;
   height: 100%;
 }
-/* 
-#glow {
-  border-radius: 100%;
-}
 
-#glow:hover {
-  color: rgb(20, 58, 77);
-  background: rgb(0, 0, 0);
-  box-shadow: 0 0 1.5rem rgb(34, 184, 234);
+/* .giphy-embed {
+  color: rgb(25, 29, 29);
 } */
 
 @media (max-width: 62rem) {
