@@ -61,19 +61,19 @@
 
 #pawel {
   position: absolute;
-  width: 52rem;
+  width: 40rem;
   height: auto;
   left: 0;
-  bottom: -3rem;
-  opacity: 0.85;
+  bottom: -15rem;
+  opacity: 0.9;
 }
 
 #julia {
   position: absolute;
-  width: 35rem;
+  width: 28rem;
   height: auto;
-  right: 6rem;
-  bottom: 10rem;
+  right: 4rem;
+  bottom: -6rem;
   opacity: 0.9;
 }
 
